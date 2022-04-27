@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "indent": ["warn", 2, { "SwitchCase": 1 }],
+        "quotes": ["warn", "single", { "avoidEscape": true }],
+        "jsx-quotes": ["error", "prefer-double"],
+        "no-empty-function": "warn",
+        "@typescript-eslint/no-empty-function": "warn",
+        "react/display-name": "off",
+        "react/prop-types": "off",
+        "semi": ["warn", "always"],
+        "no-trailing-spaces": "warn",
+        "eol-last": ["warn", "always"],
+        "space-before-blocks": ["warn", "always"],
+        "object-curly-spacing": ["warn", "always"],
+        "@typescript-eslint/no-unused-vars": ["warn"],
+        "react-hooks/exhaustive-deps": ["off"]
+    }
+}

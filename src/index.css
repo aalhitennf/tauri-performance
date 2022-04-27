@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  font-size: 15px !important;
+  font-family: 'Cantarell', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Segoe UI', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.no-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.ant-message {
+  position: absolute;
+  bottom: 20px !important;
+  top: unset !important;
+}

@@ -1,0 +1,25 @@
+.list-item-container {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+}
+
+.list-item-inner {
+    text-align: center;
+}
+
+#directory-listing-scroll-container .ds-selected {
+    background-color: rgb(6, 165, 85);
+}
+
+.list-item-inner img {
+    width: 80px;
+    background-color: burlywood;
+}
+
+.list-item-inner p {
+    background-color: rgb(127, 168, 255);
+    /* word-wrap: break-word; */
+    overflow: hidden;
+}
